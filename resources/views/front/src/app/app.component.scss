@@ -1,0 +1,35 @@
+.greyBack {
+  display: none;
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.detailModal {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px;
+  padding: 20px;
+  margin: 100px auto;
+  background: #fff;
+
+  .close {
+    position: absolute;
+    margin-left: 440px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
+
+.newProd {
+  button {
+    float: right;
+    margin-bottom: 20px;
+  }
+}
